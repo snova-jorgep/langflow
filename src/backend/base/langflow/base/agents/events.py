@@ -1,4 +1,5 @@
 # Add helper functions for each event type
+import asyncio
 from collections.abc import AsyncIterator
 from time import perf_counter
 from typing import Any, Protocol
